@@ -25,6 +25,9 @@ export default function Nav() {
                         <a href="" className='nav-link'>Projects</a>
                     </li>
                     <li className='nav-item'>
+                        <a href="" className='nav-link'>Skills</a>
+                    </li>
+                    <li className='nav-item'>
                         <a href="" className='nav-link'>Contacts</a>
                     </li>
                 </ul>
