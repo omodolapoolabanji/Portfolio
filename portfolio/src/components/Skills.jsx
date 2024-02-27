@@ -40,7 +40,7 @@ export default function Skills(){
 
 
 
-    return(
+    return(<section id='skills'>
         <div className=' skills' >
         <h3 className="mb-4"> Skills</h3>
         <Rerousel style={{width: '100%'}} itemRef={ref}>
@@ -59,5 +59,6 @@ export default function Skills(){
             
         </Rerousel>
         </div>
+        </section>
     )
 } 

@@ -19,16 +19,16 @@ export default function Nav() {
                 <ul className='container-fluid navbar-nav collapse navbar-collapse me-auto' id='#navItems'>
 
                     <li className='nav-item'>
-                        <a href="" className='nav-link'>Home</a>
+                        <a href="#Hero" className='nav-link'>Home</a>
                     </li>
                     <li className='nav-item'>
-                        <a href="" className='nav-link'>Projects</a>
+                        <a href="#projects" className='nav-link'>Projects</a>
                     </li>
                     <li className='nav-item'>
-                        <a href="" className='nav-link'>Skills</a>
+                        <a href="#skills" className='nav-link'>Skills</a>
                     </li>
                     <li className='nav-item'>
-                        <a href="" className='nav-link'>Contacts</a>
+                        <a href="#contact" className='nav-link'>Contacts</a>
                     </li>
                 </ul>
                 </div>

@@ -18,7 +18,7 @@ export default function Hero() {
     
 
     return(
-        <>
+        <section id='Hero'>
             <div>
                 <h3>Hello, My name is</h3>
                 <h1>Omodolapo Olabanji</h1>
@@ -46,7 +46,7 @@ Proficient in Git, Postman, Unix, Unity, and Adobe XD, I prioritize best practic
                     Download Resume
                 </button>
             </div>
-        </>
+        </section >
 
     )
 }
