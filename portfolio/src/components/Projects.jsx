@@ -13,13 +13,14 @@ import React from 'react'
 
 
 export default function Projects(){
-    const projects = [{name: "Flashcard.AI", image: flashcardAI, description:"This project employs Flask, Tesseract OCR, MongoDB, OpenCV, Bootstrap, and OpenAI/'s GPT-3.5-turbo for parsing student notes into flashcards. Authentication uses WTForms, Werkzeug for password hashing, and features a RESTful API for CRUD " ,link:"https://github.com/omodolapoolabanji/AI-Flashcard", techstack: [flask, opencv, openai, mongo, bootstrap]}, {name: "Wordoodle", image: gamePic, description:"This repository holds a wordle clone I made for my CSI-C292 course's final project. It utilizes Unity and the C# language to create a doodle themed wordle clone similar to that of the NewYork Time's" ,link:"https://github.com/omodolapoolabanji/Wordoodle", techstack: [unity, game]},  {name: "Truth Table Generator", image: truthTable, description:"This repository holds my first ever project that utilizes Java's Swing library as a GUI. The truth table generator parses user inputs (propostional logic expressions) and returns a truth table" ,link:"https://github.com/omodolapoolabanji/Truth-Table-Generator-JSwing", techstack:[java] }]
+    const projects = [{name: "Flashcard.AI", image: flashcardAI, description:"This project employs Flask, Tesseract OCR, MongoDB, OpenCV, Bootstrap, and OpenAI/'s GPT-3.5-turbo for parsing student notes into flashcards. Authentication uses WTForms, Werkzeug for password hashing, and features a RESTful API for CRUD operations." ,link:"https://github.com/omodolapoolabanji/AI-Flashcard", techstack: [flask, opencv, openai, mongo, bootstrap]}, {name: "Wordoodle", image: gamePic, description:"This repository holds a wordle clone I made for my CSI-C292 course's final project. It utilizes Unity and the C# language to create a doodle themed wordle clone similar to that of the NewYork Time's" ,link:"https://github.com/omodolapoolabanji/Wordoodle", techstack: [unity, game]},  {name: "Truth Table Generator", image: truthTable, description:"This repository holds my first ever project that utilizes Java's Swing library as a GUI. The truth table generator parses user inputs (propostional logic expressions) and returns a truth table" ,link:"https://github.com/omodolapoolabanji/Truth-Table-Generator-JSwing", techstack:[java] }]
     
     return(
             <section id='projects'>
-            <h3 className='text-center'>
+            <h3 className='text-center title'>
                 Projects
             </h3>
+            <hr style={{width:'70%', margin: 'auto'}} />
             <div className='container mt-5' style={{}}>
                 <div className='row'>
             {projects.map((item)=>(

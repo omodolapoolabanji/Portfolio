@@ -42,7 +42,8 @@ export default function Skills(){
 
     return(<section id='skills'>
         <div className=' skills' >
-        <h3 className="mb-4"> Skills</h3>
+        <h3 className="mb-4 title"> Skills</h3>
+        <hr style={{width:'70%', margin: 'auto'}} />
         <Rerousel style={{width: '100%'}} itemRef={ref}>
             <Item ref= {ref} >
                 <img src={skills[0]} style={{width : '30px', height: '30px'}} alt="icons" /> 

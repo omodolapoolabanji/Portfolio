@@ -1,6 +1,8 @@
 import img from '../assets/dolapo.png';
 import resume from '../assets/OMODOLAPO_OLABANJI.pdf'
+import styles from '../../styles/sub.module.css'
 export default function Hero() {
+    const asp = ['Software Engineer', 'Backend Developer', 'Fullstack Developer', 'Machine Learning Engineer', 'AI Engineer', 'Software Engineer']
 
     const downloadButton = async () =>{
         try{
@@ -18,13 +20,20 @@ export default function Hero() {
     
 
     return(
-        <section id='Hero'>
+        <section id='Hero' >
             <div>
                 <h3>Hello, My name is</h3>
                 <h1>Omodolapo Olabanji</h1>
-                <div>
-                    <p> I am an aspiring <span id="type-writer"></span></p>
-                </div>
+                
+                    <h4 className={styles.titles}>And I am an aspiring <div className={styles.asps} >
+                        <span>Software Engineer</span>
+                        <span>Backend Developer</span>
+                        <span>Fullstack Developer</span>
+                        <span>Machine Learning Engineer</span>
+                        <span>AI Engineer</span>
+                        <span>Software Engineer</span>
+                        </div></h4>
+                
                 <div>
                     <p>
                         
@@ -35,17 +44,17 @@ My coursework in Data Structures, Algorithms, and Object-Oriented Design has ref
 Proficient in Git, Postman, Unix, Unity, and Adobe XD, I prioritize best practices, conduct unit tests, and bring critical thinking to software development. From ReactJS and Flask to Java Swing and Spring Boot, my toolkit is diverse, reflecting my commitment to excellence in every line of code. Join me as I navigate the ever-evolving field of software engineering.
                     </p>
                 </div>
-
+                <div className='resume_button'>
+                <button className= 'btn btn-primary m-2 ' type='button' onClick={downloadButton} >
+                    Download Resume
+                </button>
+            </div>
             </div>
             <div>
                 <img src={img} alt="This is an image of me in pixel art form:)"/>
 
             </div>
-            <div className='resume_button'>
-                <button className= 'btn btn-primary m-2 ' type='button' onClick={downloadButton} >
-                    Download Resume
-                </button>
-            </div>
+            
         </section >
 
     )

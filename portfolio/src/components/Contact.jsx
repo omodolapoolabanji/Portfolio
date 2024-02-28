@@ -19,7 +19,8 @@ export default function Contact() {
 
     return (
         <section id='contact'>
-            <h3 className='text-center'>Get in Touch</h3>
+            <h3 className='text-center title'>Get in Touch</h3>
+            <hr style={{width:'50%', margin: 'auto', marginBottom:'30px'}} />
             <div className= " contact-card" >
             
             <form ref={form} onSubmit={sendEmail}>
