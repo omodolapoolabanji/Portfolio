@@ -56,3 +56,19 @@
     transform: translateY(-4em);
   }
 }
+@media (max-width: 991px) {
+  .titles {
+    font-size: clamp(1rem, 8em, 2rem);
+  }
+  .asps {
+    font-size: calc(1em + 5px);
+  }
+}
+@media (max-width: 480px) {
+  .titles {
+    font-size: clamp(1rem, 8em, 1.5rem);
+  }
+  .asps {
+    font-size: calc(1em + 3px);
+  }
+}
