@@ -6,6 +6,10 @@
   background-color: var(--main-color) !important;
   border-color: var(--main-color) !important;
 }
+html{
+  scroll-behavior: smooth;
+
+}
 body {
   margin: 0;
   padding: 0;
@@ -62,4 +66,27 @@ a:hover {
 }
 #skills {
   margin: 60px 0px;
+}
+@media screen and (max-width: 768px) {
+  #Hero {
+    flex-direction: column;
+  }
+  #Nav nav ul.show{
+    transform: translateX(0);
+  }
+  #Projects {
+    flex-direction: row;
+    padding: 0 20px;
+  }
+  a:hover{
+    transform: none;
+  }
+  .tech-stack{
+    width: 20px;
+    height: 20px;
+    
+  }
+}
+@media screen and (max-width: 420px){
+
 }

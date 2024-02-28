@@ -2,7 +2,7 @@ import img from '../assets/dolapo.png';
 import resume from '../assets/OMODOLAPO_OLABANJI.pdf'
 import styles from '../../styles/sub.module.css'
 export default function Hero() {
-    const asp = ['Software Engineer', 'Backend Developer', 'Fullstack Developer', 'Machine Learning Engineer', 'AI Engineer', 'Software Engineer']
+    
 
     const downloadButton = async () =>{
         try{
@@ -30,8 +30,8 @@ export default function Hero() {
                         <span>Backend Developer</span>
                         <span>Fullstack Developer</span>
                         <span>Machine Learning Engineer</span>
-                        <span>AI Engineer</span>
                         <span>Software Engineer</span>
+                        {/* <span>Software Engineer</span> */}
                         </div></h4>
                 
                 <div>
