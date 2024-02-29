@@ -10,6 +10,7 @@ html{
   scroll-behavior: smooth;
 
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -34,11 +35,12 @@ body {
   width: 100%;
 }
 .contact-card {
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
   margin: 20px auto;
   max-width: 40rem;
   padding-top: 20px;
   border-radius: 10px;
+  
 }
 a:hover {
   color: #008080;!important;
