@@ -60,6 +60,8 @@ a:hover {
   z-index: 100;
   overflow: hidden;
   background-color: white;
+  border-bottom: thin solid #f1f1f1;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 .title {
   color: var(--main-color);
@@ -92,6 +94,11 @@ a:hover {
     flex-direction: column;
     align-items: center;
   }
+  .contact-card {
+    padding: 20px;
+  }
+
+  
 }
 @media screen and (max-width: 420px){
   #Hero {
@@ -116,4 +123,5 @@ a:hover {
     flex-direction: column;
     align-items: center;
   }
+  
 }

@@ -23,7 +23,7 @@ export default function Hero() {
         <section id='Hero' >
             <div>
                 <h3>Hello, My name is</h3>
-                <h1>Omodolapo Olabanji</h1>
+                <h1 className='title'>Omodolapo Olabanji</h1>
                 
                     <h4 className={styles.titles}>And I am an aspiring <div className={styles.asps} >
                         <span>Software Engineer</span>

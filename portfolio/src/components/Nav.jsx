@@ -18,8 +18,8 @@ export default function Nav() {
                     <span className='navbar-toggler-icon'></span>
                 </button>
 
-                <div className='collapse navbar-collapse' id='navbarSupportedContent'>
-                <ul className='navbar-nav me-auto mb-2-lg-0' >
+                <div className='navbar-collapse justify-content-end' id='navbarSupportedContent' style={{float:'right' }}>
+                <ul className=' navbar-nav  mb-2-lg-0 ' >
 
                     <li className='nav-item'>
                         <a href="#Hero" className={'nav-link '}>Home</a>
