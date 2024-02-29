@@ -6,9 +6,8 @@
   background-color: var(--main-color) !important;
   border-color: var(--main-color) !important;
 }
-html{
+html {
   scroll-behavior: smooth;
-
 }
 
 body {
@@ -40,10 +39,9 @@ body {
   max-width: 40rem;
   padding-top: 20px;
   border-radius: 10px;
-  
 }
 a:hover {
-  color: #008080;!important;
+  color: #008080 !important;
   transform: scale(1.1);
 }
 #Hero {
@@ -75,55 +73,49 @@ a:hover {
   #Hero {
     flex-direction: column;
   }
-  #Nav nav ul.show{
+  #Nav nav ul.show {
     transform: translateX(0);
   }
   #Projects {
     flex-direction: row;
     padding: 0 20px;
   }
-  a:hover{
+  a:hover {
     transform: none;
   }
-  .tech-stack{
+  .tech-stack {
     width: 20px;
     height: 20px;
     margin: 0 10px;
-    
-    
   }
-  .row{
+  .row {
     flex-direction: column;
     align-items: center;
   }
   .contact-card {
     padding: 20px;
   }
-
-  
 }
-@media screen and (max-width: 420px){
+@media screen and (max-width: 420px) {
   #Hero {
     flex-direction: column;
   }
-  #Nav nav ul.show{
+  #Nav nav ul.show {
     transform: translateX(0);
   }
   #Projects {
     flex-direction: row;
     padding: 0 20px;
   }
-  a:hover{
+  a:hover {
     transform: none;
   }
-  .tech-stack{
+  .tech-stack {
     width: 20px;
     height: 20px;
-    
   }
-  .row{
+  .row {
     flex-direction: column;
     align-items: center;
   }
-  
 }
